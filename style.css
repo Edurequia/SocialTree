@@ -1,0 +1,104 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+ text-decoration: none; 
+}
+
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+ul{
+  list-style: none;
+}
+
+body{
+  background-color: var(--body-bg-color);
+}
+
+img{
+  clip-path: circle();
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.image{
+  margin-left: 619px;
+  margin-right: 621px;
+  margin-top: 207px;
+  margin-bottom: 15px;
+}
+
+.image::before{
+  content: '';
+  height: 213px;
+  width: 213px;
+  clip-path: circle();
+  background-color:  var(--purple);
+  position: absolute;
+  top: 201px;
+  left: 612px;
+}
+
+li.link{
+  width: 326px;
+  height: 49px;
+  font: 600 16px 'Poppins', sans-serif;
+}
+
+ul li{
+  height: 16px;
+  border: 2px solid var(--purple);
+  border-radius: 4px;
+  margin-left: 556px;
+  margin-right: 558px;
+  color: var(--purple);
+  background-color: var(--body-bg-color);
+  padding: 12px 13px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+ul li a{
+  color: var(--purple);
+  background-color: var(--body-bg-color);
+}
+
+.instagram{
+  margin-left: 669px;
+  margin-right: 672px;
+  margin-bottom: 33px;
+  color: var(--purple);
+}
+
+h3{
+  font: 300 16px 'Poppins', sans-serif;
+}
+
+footer.icons{
+  display: flex;
+  font-size: 24px;
+  color: var(--purple);
+  margin-left: 650px;
+  margin-bottom: 202px;
+  margin-top: 65px;
+  width: 500px;
+}
+
+.icon-instagram{
+  width: 50px;
+}
+
+.icon-twitter{
+  width: 50px;
+}
+
+.icon-github{
+  width: 50px;
+}
